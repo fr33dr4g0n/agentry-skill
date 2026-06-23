@@ -57,6 +57,13 @@ repo-local instruction adapters for:
 The adapter manifest is the canonical place to discover the current native
 file path for each client: https://api.agentry.sh/adapters.
 
+## Gemini CLI Extension
+
+This repository is also shaped as a Gemini CLI extension. The root
+`gemini-extension.json` file gives Gemini's extension gallery concise discovery
+metadata, and `skills/agentry/SKILL.md` exposes the same Agentry skill through
+Gemini's extension skill loader.
+
 ## Related Public Surfaces
 
 - Website: https://agentry.sh/
@@ -71,6 +78,8 @@ file path for each client: https://api.agentry.sh/adapters.
 ## Files
 
 - `SKILL.md` - agent instructions and live doc pointers.
+- `gemini-extension.json` - Gemini CLI extension gallery metadata.
+- `skills/agentry/SKILL.md` - Gemini CLI extension skill entry.
 - `LICENSE` - MIT license.
 
 ## Direct Skill Install

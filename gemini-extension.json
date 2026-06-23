@@ -1,0 +1,5 @@
+{
+  "name": "agentry",
+  "version": "0.1.2",
+  "description": "Agent-native analytics, error logging, and deploy attribution for AI coding agents."
+}
