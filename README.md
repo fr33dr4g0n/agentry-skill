@@ -46,6 +46,8 @@ install guide. It points agents to the canonical Agentry docs:
 - Skill repository: https://github.com/fr33dr4g0n/agentry-skill
 - MCP package on npm: https://www.npmjs.com/package/@agentrysh/mcp
 - MCP repository: https://github.com/fr33dr4g0n/agentry-public
+- Codex marketplace catalog: https://github.com/fr33dr4g0n/agentry-public/blob/main/.agents/plugins/marketplace.json
+- Claude marketplace catalog: https://github.com/fr33dr4g0n/agentry-public/blob/main/.claude-plugin/marketplace.json
 - MCP registry name: `io.github.fr33dr4g0n/agentry-observability`
 
 ## Files

@@ -94,4 +94,6 @@ above; they are authoritative and can update independently of adapters.
 - Skill repository: <https://github.com/fr33dr4g0n/agentry-skill>.
 - MCP package: <https://www.npmjs.com/package/@agentrysh/mcp>.
 - MCP repository: <https://github.com/fr33dr4g0n/agentry-public>.
+- Codex marketplace catalog: <https://github.com/fr33dr4g0n/agentry-public/blob/main/.agents/plugins/marketplace.json>.
+- Claude marketplace catalog: <https://github.com/fr33dr4g0n/agentry-public/blob/main/.claude-plugin/marketplace.json>.
 - Adapter manifest: <https://api.agentry.sh/adapters>.
