@@ -75,6 +75,18 @@ file path for each client: https://api.agentry.sh/adapters.
 
 ## Direct Skill Install
 
+For the Codex plugin UI, Agentry is distributed as a Git-backed marketplace
+source. It will not appear in global Codex plugin search for unrelated accounts
+until they add the marketplace source, receive a workspace share, or OpenAI
+curates it:
+
+```bash
+codex plugin marketplace add fr33dr4g0n/agentry-public
+codex plugin add agentry@agentry
+```
+
+The direct skill install works without the plugin UI:
+
 ```bash
 mkdir -p ~/.codex/skills/agentry
 curl -fsSL -A 'AgentryAgent/1.0' \
