@@ -39,6 +39,15 @@ install guide. It points agents to the canonical Agentry docs:
 - OpenAPI: https://api.agentry.sh/v1/openapi.json
 - Adapter install/update: https://api.agentry.sh/adapters
 
+## Related Public Surfaces
+
+- Website: https://agentry.sh/
+- Live skill: https://agentry.sh/skill/agentry/SKILL.md
+- Skill repository: https://github.com/fr33dr4g0n/agentry-skill
+- MCP package on npm: https://www.npmjs.com/package/@agentrysh/mcp
+- MCP repository: https://github.com/fr33dr4g0n/agentry-public
+- MCP registry name: `io.github.fr33dr4g0n/agentry-observability`
+
 ## Files
 
 - `SKILL.md` - agent instructions and live doc pointers.
