@@ -39,6 +39,21 @@ install guide. It points agents to the canonical Agentry docs:
 - OpenAPI: https://api.agentry.sh/v1/openapi.json
 - Adapter install/update: https://api.agentry.sh/adapters
 
+## Supported Agent Surfaces
+
+Agentry is distributed as a skill, MCP handoff, OpenAPI Action schema, and
+repo-local instruction adapters for:
+
+- Codex and Claude Code.
+- Cursor, VS Code with GitHub Copilot, Visual Studio with GitHub Copilot, and
+  GitHub Copilot coding agent.
+- Devin Desktop/Windsurf Cascade, Cline, Roo Code, Continue, Zed, Gemini CLI,
+  Aider, and OpenCode.
+- ChatGPT custom GPT Actions, generic MCP clients, and AGENTS.md-aware agents.
+
+The adapter manifest is the canonical place to discover the current native
+file path for each client: https://api.agentry.sh/adapters.
+
 ## Related Public Surfaces
 
 - Website: https://agentry.sh/
