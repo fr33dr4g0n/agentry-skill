@@ -64,6 +64,13 @@ This repository is also shaped as a Gemini CLI extension. The root
 metadata, and `skills/agentry/SKILL.md` exposes the same Agentry skill through
 Gemini's extension skill loader.
 
+## Open Plugin Metadata
+
+This repository also includes `.plugin/plugin.json` for catalogs that index
+the Open Plugins format, including Cursor-style plugin directories. The manifest
+points to the same `skills/agentry/SKILL.md` file and uses the public Agentry
+site, logo, repository, license, and discovery keywords.
+
 ## Related Public Surfaces
 
 - Website: https://agentry.sh/
@@ -79,6 +86,7 @@ Gemini's extension skill loader.
 
 - `SKILL.md` - agent instructions and live doc pointers.
 - `gemini-extension.json` - Gemini CLI extension gallery metadata.
+- `.plugin/plugin.json` - Open Plugins discovery metadata.
 - `skills/agentry/SKILL.md` - Gemini CLI extension skill entry.
 - `LICENSE` - MIT license.
 
